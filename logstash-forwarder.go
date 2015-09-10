@@ -31,7 +31,7 @@ var options = &struct {
 }{
 	spoolSize:           1024,
 	harvesterBufferSize: 16 << 10,
-	idleTimeout:         time.Second * 5,
+	idleTimeout:         time.Second * 1,
 }
 
 func emitOptions() {
